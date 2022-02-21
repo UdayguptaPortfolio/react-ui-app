@@ -1,0 +1,34 @@
+.navbar-logo img {
+  height: 40px;
+  padding-left: 30px;
+}
+.topnav {
+  overflow: hidden;
+  margin-left: 600px;
+}
+
+.topnav a {
+  float: left;
+  color: #332e2e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(15, 170, 241);
+  color: white;
+}
+
+.topnav a.active {
+  background-color: rgb(15, 170, 241);
+  color: white;
+}
+hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

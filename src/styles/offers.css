@@ -1,0 +1,38 @@
+.offers_container {
+}
+.offers_container > h2 > b > strong {
+  color: rgb(15, 170, 241);
+}
+.offers_container > h2 {
+  color: rgb(102, 99, 99);
+  margin-top: 50px;
+  margin-left: 700px;
+}
+.offers_container > h4 {
+  color: rgb(102, 99, 99);
+  margin-top: 1px;
+  margin-left: 500px;
+}
+.arrow {
+  color: aqua;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  top: 357px;
+  left: 327px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.left {
+  top: 357px;
+  left: 535px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.fa fa-chevron-circle-down {
+  font-size: 24px;
+}
