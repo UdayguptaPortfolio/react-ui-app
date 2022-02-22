@@ -1,14 +1,44 @@
-import React from 'react';
-import '../styles/offers.css';
+import React from "react";
+import "../styles/offers.css";
+import OfferCard from "./offercard";
 
 const Offers = () => {
   return (
-    <div className='offers_container'>
-       <i class="arrow right"></i><h2> WHAT WE <b><strong>OFFER</strong></b></h2><i class="arrow left"></i>
-       <h4>We offer our customers the best services and solutions, this is our main services list</h4>
-       
+    <>
+      <div className="offers_container">
+        <i className="arrow right"></i>
+        <h2>
+          {" "}
+          WHAT WE{" "}
+          <b>
+            <strong>OFFER</strong>
+          </b>
+        </h2>
+        <i className="arrow left"></i>
+        <h4>
+          We offer our customers the best services and solutions, this is our
+          main services list
+        </h4>
       </div>
-  )
-}
+      <div className="offer-card">
+        <OfferCard
+          text="RESPONSIVE & MULTIPURPOSE"
+          desc="Proin in imagine a ipsum viverra scelerisq enec turp.Nunc
+            ghfghfjjhjkkjshjsjsg jksshjhjss "
+        />
+        <OfferCard
+          text="EASY CUSTOMIZATION"
+          desc="Proin in imagine a ipsum viverra scelerisq enec turp.Nunc
+            ghfghfjjhjkkjshjsjsg jksshjhjss "
+        />
+        <OfferCard
+          text="AWESOME FRIENDLY SUPPORT"
+          desc="Proin in imagine a ipsum viverra scelerisq enec turp.Nunc
+            ghfghfjjhjkkjshjsjsg jksshjhjss "
+        />
+      </div>
+    </>
+  );
+};
 
 export default Offers;
