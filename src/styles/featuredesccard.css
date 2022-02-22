@@ -1,0 +1,40 @@
+.features-desc-box-container{
+    margin-top: -120px;
+    width:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.f-d-box{
+    width: 500px;
+    min-width: 300px;
+    height: auto;
+    position: absolute;
+  }
+  .f-d-box img{
+    height: 55px;
+    margin-bottom: -60px;
+    margin-left: -70px;
+  }
+  .f-d-box h4{
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    margin-left: 14px;
+    color: rgb(102, 99, 99);
+    font-weight: 1000;
+  }
+  .f-d-box h6{
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    margin-left: 14px;
+    color: rgb(150, 147, 147);
+    font-weight: 1000;
+  }
+  .f-d-box p{
+      margin-left: 14px;
+    color: rgb(102, 99, 99);
+    font-weight: 500;
+  }
+  

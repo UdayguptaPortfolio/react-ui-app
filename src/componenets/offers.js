@@ -24,17 +24,17 @@ const Offers = () => {
         <OfferCard
           text="RESPONSIVE & MULTIPURPOSE"
           desc="Proin in imagine a ipsum viverra scelerisq enec turp.Nunc
-            ghfghfjjhjkkjshjsjsg jksshjhjss "
+            "
         />
         <OfferCard
           text="EASY CUSTOMIZATION"
           desc="Proin in imagine a ipsum viverra scelerisq enec turp.Nunc
-            ghfghfjjhjkkjshjsjsg jksshjhjss "
+          "
         />
         <OfferCard
           text="AWESOME FRIENDLY SUPPORT"
           desc="Proin in imagine a ipsum viverra scelerisq enec turp.Nunc
-            ghfghfjjhjkkjshjsjsg jksshjhjss "
+             "
         />
       </div>
     </>
