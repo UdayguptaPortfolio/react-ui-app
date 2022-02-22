@@ -7,7 +7,7 @@ const UpperHeader = () => {
     <img className='header_image' src='header_image.jpg' alt='upper header '/>
     <p>WHAT ARE YOU WAITING FOR?</p>
     <h1>LET'S BE CREATIVE !</h1>
-    <h2><strong>U</strong>nique,NEXT GENERATION AND HIGHLY FLEXIBLE THEME.</h2>
+    <h2><strong>U</strong>nique,NEXT GENERATION AND HIGHLY FLEXIBLE THEME</h2>
     <br/>
     <i class="arrow right"></i><h3><b><strong>START</strong></b> DOING THAT</h3><i class="arrow left"></i>
     <br/><br/>

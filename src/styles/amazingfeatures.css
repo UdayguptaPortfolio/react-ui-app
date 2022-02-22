@@ -1,0 +1,111 @@
+.features-heading{
+    margin-top: -350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.amazing-features-container {
+    background-color: rgb(41, 40, 40);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+  }
+  .second-features{
+    background-color:white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+  }
+  .amazing-features-container>.features-heading > h2 > b > strong {
+    color: rgb(15, 170, 241);
+    align-items: center;
+    justify-content: center;
+  }
+  .amazing-features-container>.features-heading > h2 {
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  .amazing-features-container>.features-heading > h4 {
+    color: rgb(102, 99, 99);
+    align-items: center;
+    justify-content: center;
+  }
+  .arrow {
+    color: aqua;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    top: 357px;
+    left: 327px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .left {
+    top: 357px;
+    left: 535px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+.left-features{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 10px;
+    left: 370px;
+}
+.right-features{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 180px;
+  left: 1070px;
+}
+.right-features>.image1{
+  position: relative;
+  margin-left: -100px;
+  border-radius: 15px;
+}
+.right-features>.image2{
+  position: relative;
+  margin-left: -350px;
+  margin-top: -300px;
+  border-radius: 15px;
+}
+.second-feature{
+  margin-top: 800px;
+}
+
+  @media(max-width:1050px){
+    .amazing-features-container{
+     flex-wrap: wrap;
+    }
+    .left-features{
+      flex-wrap: wrap;
+    }
+    .right-features{
+      flex-wrap: wrap;
+    }
+    .features-box-container{
+      flex-wrap: wrap;
+    }
+    .amazing-features-container>.features-heading>h2{
+      height: auto;
+      width: auto;
+    }
+    
+  }

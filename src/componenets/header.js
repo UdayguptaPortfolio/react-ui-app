@@ -7,7 +7,7 @@ export const Header = () => {
       <header>
         <div className="topnav">
           <a href="#home">Home</a>
-          <a class="active" href="#portfolio">
+          <a className="active" href="#portfolio">
             Portfolio
           </a>
           <a href="#blog">Blog</a>
@@ -15,7 +15,7 @@ export const Header = () => {
           <a href="#features">Features</a>
           <a href="#mega-menu">Mega-Menu</a>
           <a href="#contact">Contact</a>
-          <i class="fa fa-search" 
+          <i className="fa fa-search" 
           style={{
             color:'rgb(15, 170, 241)',
             marginTop:'15px'
