@@ -1,0 +1,139 @@
+.upperheader_container{
+    margin-top: -23.5px;
+    margin-left: -5px;
+}
+.header_image{
+    height: 600px;
+    width:100%;
+    position: relative;
+    opacity: 5rem;
+}
+.upperheader_container>p{
+    color: rgb(32, 32, 32);
+    position: absolute;
+    top: 170px;
+    left: 300px;
+    
+}
+
+.upperheader_container>h1{
+    color: rgb(36, 36, 36);
+    position: absolute;
+    top: 180px;
+    left: 110px;
+    font-size: 65px;
+    font-weight: 1000;
+}
+.upperheader_container>h2{
+    color: rgb(224, 219, 219);
+    position: absolute;
+    top: 260px;
+    left: 100px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: rgb(36, 36, 36);
+    padding: 5px;
+}
+.upperheader_container>h2>strong{
+    color: rgb(15, 170, 241);
+}
+.upperheader_container>h3>b>strong{
+    color: rgb(15, 170, 241);
+}
+.upperheader_container>h3{
+    color: rgb(36, 36, 36);
+    position: absolute;
+    top: 350px;
+    left: 350px;
+}
+
+.arrow {
+    color: aqua;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+  }
+  
+  .right {
+    top: 357px;
+    left: 327px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: absolute;
+  }
+  .left {
+    top: 357px;
+    left: 535px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  .fa>.fa-chevron-circle-down{
+    font-size:88px,
+    
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .upperheader_container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .upperheader_container>p{
+        color: rgb(36, 36, 36);
+        position: absolute;
+        top: 170px;
+        left: 10px;
+    }
+    
+    .upperheader_container>h1{
+        color: rgb(36, 36, 36);
+        position: absolute;
+        top: 190px;
+        left: 10px;
+        font-size: 40px;
+        font-weight: 1000;
+    }
+    .upperheader_container>h2{
+        color: rgb(224, 219, 219);
+        position: absolute;
+        top: 250px;
+        left: 10px;
+        font-weight: 500;
+        border-radius: 5px;
+        background-color: rgb(36, 36, 36);
+        padding: 5px;
+    }
+    .upperheader_container>h3{
+        color: rgb(36, 36, 36);
+        position: absolute;
+        top: 350px;
+        left: 50px;
+    }
+    .arrow {
+        color: aqua;
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        position: absolute;
+      }
+      
+      .right {
+        top: 357px;
+        left: 30px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        position: absolute;
+      }
+      .left {
+        top: 357px;
+        left: 233px;
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+      }
+      .fa fa-chevron-circle-down{
+        display: none;
+        
+      }
+  }
