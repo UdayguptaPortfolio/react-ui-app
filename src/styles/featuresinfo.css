@@ -30,3 +30,13 @@
       margin-left: 14px;
     color: rgb(102, 99, 99);;
   }
+  .desktopicon {
+    color:rgb(15, 170, 241);
+    height: 35px;
+    margin-bottom: -40px;
+    margin-left: -50px;
+  }
+  .f-box:hover .desktopicon{
+    color: white;
+  }
+  

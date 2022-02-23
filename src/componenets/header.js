@@ -5,8 +5,10 @@ export const Header = () => {
   return (
     <div>
       <header>
-        <div className="topnav">
-          <a href="#home">Home</a>
+        <div class="header">
+  <a href="#default" class="logo">STARTUPRR</a>
+  <div class="header-right">
+  <a href="#home">Home</a>
           <a className="active" href="#portfolio">
             Portfolio
           </a>
@@ -20,7 +22,8 @@ export const Header = () => {
             color:'rgb(15, 170, 241)',
             marginTop:'15px'
           }}></i>
-        </div>
+  </div>
+</div>
       </header>
       <hr/>
     </div>
