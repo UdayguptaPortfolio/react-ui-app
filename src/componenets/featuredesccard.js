@@ -1,20 +1,33 @@
-import React from 'react'
-import "../styles/featuredesccard.css"
+import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import "../styles/featuredesccard.css";
 
-const FeatureDescCard = ({text,title,desc}) => {
+const FeatureDescCard = ({ text, title, desc,icon }) => {
   return (
-      <>
-    <div className="features-desc-box-container">
-        <div className="f-d-box">
-          <div className="bar"></div>
-          <img src="logo192.png" alt="1"/>
-          <h4>{text}</h4>
-          <p>{desc} 
-          </p>
+    <>
+      <div className='container'>
+        <div className='wrapper'>
+          <div className='cardcontainer'>
+            <div className='card'>
+              <div className='cardicon'>
+                <FontAwesomeIcon
+                  icon={icon}
+                  className='desktopicon-feature'
+                ></FontAwesomeIcon>
+              </div>
+              <div className='cardcontent'>
+                <h4>{text}</h4>
+                <span>{title}</span>
+                <p>
+                  {desc}
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      </>
-  )
-}
+    </>
+  );
+};
 
 export default FeatureDescCard;

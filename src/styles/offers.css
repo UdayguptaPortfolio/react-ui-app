@@ -96,8 +96,8 @@
   transition: all ease 0.3s;
 }
 .o-btn:hover{
-  background-color: #4a90e2;
-  border: 1px solid #4a90e2 ;
+  background-color: rgb(15, 170, 241);
+  border: 1px solid rgb(15, 170, 241);
   color: #FFFFFF;
   transition: all ease 0.3s;
 }
@@ -108,7 +108,7 @@
   left:50%;
   top:0px;
   transform: translateX(-50%);
-  background-color:#4a90e2 ;
+  background-color:rgb(15, 170, 241);
   border-radius: 0px 0px 10px 10px;
   display: none;
   animation: bar 0.5s;
@@ -116,6 +116,16 @@
 .o-box:hover .bar{
   display: block;
 }
+.cardsearchicon{
+  /* color:white; */
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.o-box:hover .cardsearchicon{
+  color:rgb(15, 170, 241);
+}
+
+
 @keyframes bar {
   0%{
     width: 0px;
