@@ -1,40 +1,50 @@
-.features-desc-box-container{
-    margin-top: -120px;
-    width:80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-.f-d-box{
-    width: 500px;
-    min-width: 300px;
-    height: auto;
-    position: absolute;
+   .container {
+    margin-top: 50px;
   }
-  .f-d-box img{
-    height: 55px;
-    margin-bottom: -60px;
-    margin-left: -70px;
+  .wrapper {
+     width:80%;
+     margin-left: auto;
+     margin-right: auto;
+     display:flex;
   }
-  .f-d-box h4{
-    letter-spacing: 1px;
-    margin-bottom: 8px;
-    margin-left: 14px;
-    color: rgb(102, 99, 99);
-    font-weight: 1000;
+  .cardcontainer {
+      display: flex;
+      flex-wrap: wrap;
+      gap:10px;
+      row-gap: 40px;
   }
-  .f-d-box h6{
-    letter-spacing: 1px;
-    margin-bottom: 8px;
-    margin-left: 14px;
-    color: rgb(150, 147, 147);
-    font-weight: 1000;
+  .card {
+    display:flex;
+    align-items: flex-start;
+    min-width:300px;
+    flex:1;
   }
-  .f-d-box p{
-      margin-left: 14px;
-    color: rgb(102, 99, 99);
-    font-weight: 500;
+  
+  .cardicon{
+  flex:1;
+  }
+  .desktopicon-feature{
+      font-size: 40px;
+      margin-top: 1px;
+  }
+  .cardcontent{
+  flex:4;
+  }
+  .cardcontent > h4 {
+      font-size: 15px;
+      margin:0;
+  }
+  .cardcontent > span {
+      font-size: 11px;
+      color:rgb(180, 175, 175)
+  }
+  .cardcontent > p {
+      font-size: 13px;
+  }
+  /* .card:hover {
+      transform: scale(1.05)
+  } */
+  .card:hover .desktopicon-feature {
+      color: rgb(15, 170, 241);
   }
   
