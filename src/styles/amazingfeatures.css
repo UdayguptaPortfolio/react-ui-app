@@ -30,16 +30,7 @@
     margin-left: 9px;
     font-size: 15px;
 }
-  .second-features{
-    background-color:white;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0px;
-    width: 100%;
-  }
+  
   .amazing-features-container>.features-heading > h2 > b > strong {
     color: rgb(15, 170, 241);
     align-items: center;
@@ -106,6 +97,16 @@
   align-items: center;
   
 }
+/* .second-features{
+    background-color:white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+  } */
 
   @media(max-width:1050px){
     .amazing-features-container{

@@ -1,0 +1,23 @@
+/*Progress Card*/
+.progress-bar-title{
+    margin-top: 20px;
+    margin-left: -70px;
+    font-size: 30px;
+    color: rgb(102, 99, 99);
+}
+.number{
+    font-weight: 6000px;
+    color: white;
+    font-size: 30PX;
+    align-items: center;
+    margin-right: -100px;
+}
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outer{
+    padding: 30px;
+}
+ 

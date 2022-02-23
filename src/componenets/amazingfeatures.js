@@ -3,9 +3,9 @@ import {faDesktop} from '@fortawesome/free-solid-svg-icons';
 import {faPuzzlePiece} from '@fortawesome/free-solid-svg-icons';
 import {faKey} from '@fortawesome/free-solid-svg-icons';
 import {faStar} from '@fortawesome/free-solid-svg-icons';
-import {faShoppingCart} from '@fortawesome/free-solid-svg-icons';
-import {faList} from '@fortawesome/free-solid-svg-icons';
-import {faLifeRing} from '@fortawesome/free-solid-svg-icons';
+// import {faShoppingCart} from '@fortawesome/free-solid-svg-icons';
+// import {faList} from '@fortawesome/free-solid-svg-icons';
+// import {faLifeRing} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "../styles/amazingfeatures.css";
 import FeatureDescCard from "./featuredesccard";
@@ -18,7 +18,6 @@ const AmazingFeatures = () => {
         <div className='keyiconbg'>
               <FontAwesomeIcon icon={faKey} className='keyicon'></FontAwesomeIcon>
               </div>
-          <i className="arrow right"></i>
           <h2>
             {" "}
             AMAZING{" "}
@@ -26,7 +25,6 @@ const AmazingFeatures = () => {
               <strong>FEATURES</strong>
             </b>
           </h2>
-          <i className="arrow left"></i>
           <h4>
             With unlimited features that we offer,we promise it possible to make
             everything that was impossible for you !
@@ -132,14 +130,14 @@ const AmazingFeatures = () => {
             </div>
         </div>
       </div> */}
-      <div className="second-feature">
-        <FeatureDescCard
-          icon={faDesktop}
+      {/* <div className="second-feature"> */}
+        <FeatureDescCard/>
+          {/* icon={faDesktop}
           text="RESPONSIVE & MULTIPURPOSE"
           title="Desktops,Tablets,Phones"
           desc="Proin in imagine a ipsum viverra scelerisq enec turp.Nunc Proin in imagine a ipsum viverra scelerisq enec turp.Nunc Proin in imagine a ipsum viverra scelerisq enec turp.Nunc"
-        />
-        <FeatureDescCard
+        /> */}
+        {/* <FeatureDescCard
           icon={faPuzzlePiece}
           text="RESPONSIVE & MULTIPURPOSE"
           title="Desktops,Tablets,Phones"
@@ -168,8 +166,8 @@ const AmazingFeatures = () => {
           text="RESPONSIVE & MULTIPURPOSE"
           title="Desktops,Tablets,Phones"
           desc="Proin in imagine a ipsum viverra scelerisq enec turp.Nunc Proin in imagine a ipsum viverra scelerisq enec turp.Nunc Proin in imagine a ipsum viverra scelerisq enec turp.Nunc"
-        />
-      </div>
+        /> */}
+      {/* </div> */}
     </>
   );
 };
