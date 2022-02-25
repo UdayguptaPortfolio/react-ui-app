@@ -42,8 +42,8 @@ const CompanyFacts = () => {
         </div>
         <div className='batch-title'>
           <h6>COMPLETED PROJECT</h6>
-          <h6>HOUSE OF WORKS/<i>MONTH</i></h6>
-          <h6>SOLVED TICKETS</h6>
+          <h6 style={{marginLeft:'-10px'}}>HOUSE OF WORKS/<i>MONTH</i></h6>
+          <h6 style={{marginLeft:'-10px'}}>SOLVED TICKETS</h6>
           <h6 style={{marginLeft:'30px'}}>SATISFIED CLIENTS</h6>
         </div>
       </div>

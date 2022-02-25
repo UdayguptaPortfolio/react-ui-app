@@ -1,0 +1,130 @@
+.card{
+    width: calc(100% / 4 - 10px);
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease;
+    margin-left: 40px;
+  }
+  .card:hover{
+    transform: translateY(-15px);
+  }
+  .card .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+  }
+  .card .content .img{
+      height: 285px;
+      width: 250px;
+    padding: 3px;
+    background: none;
+    margin-bottom: 14px;
+  }
+  .card .content .img img{
+    height: 100%;
+    width: 100%;
+   
+  }
+  .card .content .name>button{
+      margin-top: -40px;
+      position: absolute;
+      margin-left: -80px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 8px;
+    color: #FFF;
+    border-radius: 5px;
+    background-color:rgb(15, 170, 241) ;
+  }
+  .card .content .name>button:hover{
+      background-color: rgb(41, 40, 40);
+  }
+  .card .content .job{
+      margin-top: 25px;
+    font-size: 15px;
+    font-weight: 1000;
+    color: rgb(102, 99, 99);
+  }
+  .content>hr{
+      background-color: black;
+  }
+  
+  .contact-icon{
+      margin-top: 10px;
+      margin-bottom: 30px;
+  }
+  .email-detail{
+      display: flex;
+      gap: 20px;
+  }
+  .email-detail>b{
+      color: rgb(102, 99, 99);
+  }
+  .phone-detail>b{
+      color: rgb(102, 99, 99);
+  }
+  .phone-detail{
+      display: flex;
+      margin-top: 10px;
+      margin-left: 15px;
+      gap: 10px;
+  }
+  .card .content .team-media-icons{
+    margin-top: 140px;
+    display: flex;
+  
+  }
+  .team-media-icons a{
+    background: white;
+    text-align: center;
+    line-height: 33px;
+    height: 35px;
+    width: 35px;
+    margin: 0 4px;
+    font-size: 14px;
+    transform: rotateZ(45deg);
+    color: rgb(15, 170, 241);
+    position:relative;
+    bottom:51px;
+    border-radius: 3px;
+  }
+  .team-topicon{
+    transform: rotateZ(-45deg);
+      font-size: 17px;
+      margin-top: 10px;
+      margin-right: 0px;
+  }
+  .team-media-icons a:hover{
+    color:#fff;
+    background-color: rgb(20, 20, 20);
+    border-color: rgb(20, 20, 20);
+  }
+  .team-bgcontainer {
+    position: absolute;
+    display: flex;
+    width: 80%;
+    height: 280px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    visibility: hidden;
+  }
+  
+  .img:hover .team-bgcontainer {
+    visibility:visible;
+    background:rgb(15, 170, 241) ;
+    opacity: 0.8;
+  }
+  
+  
+  .team-bgcontainer > .team-topicon{
+    margin-top: 50px;
+  }
+  
+  
