@@ -23,26 +23,6 @@
   align-items: center;
   justify-content: center;
 }
-.arrow {
-  color: aqua;
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-}
-
-.right {
-  top: 357px;
-  left: 327px;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-.left {
-  top: 357px;
-  left: 535px;
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-}
 .fa fa-chevron-circle-down {
   font-size: 24px;
 }

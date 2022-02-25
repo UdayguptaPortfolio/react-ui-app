@@ -58,6 +58,7 @@
     flex-wrap: wrap;
     gap: 10px;
     row-gap: 40px;
+    margin-top: 50px;
   }
   .card {
     display: flex;

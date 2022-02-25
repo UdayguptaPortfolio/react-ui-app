@@ -9,7 +9,6 @@ const Offers = () => {
   return (
     <>
       <div className="offers_container">
-        <i className="arrow right"></i>
         <h2>
           {" "}
           WHAT WE{" "}
@@ -17,7 +16,6 @@ const Offers = () => {
             <strong>OFFER</strong>
           </b>
         </h2>
-        <i className="arrow left"></i>
         <h4>
           We offer our customers the best services and solutions, this is our
           main services list
