@@ -122,3 +122,63 @@
 .batch-title>h6:hover{
   color: #ddd;
 }
+
+@media(max-width:1050px){
+  .bottom-button>button{
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 1rem;
+    border: none;
+    font-size: 12px;
+    font-weight: 1000;
+    background-color: #ddd;
+    color: rgb(36, 36, 36);
+  }
+  .bottom-button{
+    align-items: center;
+    justify-content: center;
+  }
+  .bottom-content>h4{
+    font-size: auto;
+  }
+  
+  .batch-numbers>h1{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Garamond Premier Pro Display";
+    font-feature-settings: "onum"; /* Activate oldstyle figures */
+    src: url("https://use.typekit.net/af/6abdec/00000000000000003b9ade3b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2");
+    color: #ddd;
+  }
+  .company-center>.batch-title>h6{
+    font-size: 12px;
+  }
+  .batch-numbers{
+    display: flex;
+    padding-left: 70px;
+    gap:100px;
+  }
+  .batch-title{
+    margin-top: 4.5px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    gap:40px;
+    margin-left: 78px;
+    color:rgb(102, 99, 99)
+  }
+  .batch-icons{
+    margin-top: 5px;
+    display: flex;
+    gap:150px;
+    margin-left: 100px;
+    color:rgb(15, 170, 241);
+  }
+  .batch-numbers>h1:hover{
+    color:rgb(15, 170, 241);
+  }
+  .batch-title>h6:hover{
+    color: #ddd;
+  }
+}

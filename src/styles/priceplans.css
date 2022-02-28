@@ -137,7 +137,32 @@
   .price-box:hover .price-cardsbutton{
     background-color:rgb(15, 170, 241);
   }
-  
+
+.price-plan-footer{
+  margin-top: 50px;
+}
+.footer-content-price-plans{
+  display: flex;
+  margin-top: -70px;
+  gap:300px;
+  margin-left: 400px;
+}
+.footer-content-price-plans>button{
+  width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: -5px;
+    padding: 0px 15px;
+    background-color: rgb(15, 170, 241);
+    color: white;
+    font-weight: 800;
+}
+.footer-content-price-plans>button:hover{
+  background-color: rgb(36, 36, 36);
+  color: #FFFFFF;
+  transition: all ease 0.3s; 
+}
   
   @keyframes bar {
     0%{
@@ -160,5 +185,14 @@
     }
     .price-card{
       flex-wrap: wrap;
+    }
+    .footer-content-price-plans>h3{
+      margin-left: -300px
+    }
+    .footer-content-price-plans{
+      display: flex;
+      margin-top: -70px;
+      gap:30px;
+      margin-left: 400px;
     }
   }

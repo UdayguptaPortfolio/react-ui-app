@@ -1,21 +1,20 @@
 import React from 'react'
-import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faFacebookF, faLinkedin,faTwitter,faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import '../styles/teammembercard.css';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 const TeamMemberCard = ({name,post,email,phone,img}) => {
   return (
     <div class="card">
            <div class="content">
-             <div class="img">
+             <div class="team-img">
 
              <div className='team-bgcontainer'>
                     <div class="team-media-icons">
-               <a href="#"><FontAwesomeIcon icon={faHeart} className='team-topicon'/></a>
-               <a href="#"><FontAwesomeIcon icon={faEnvelope} className='team-topicon'/></a>
-               <a href="#"><FontAwesomeIcon icon={faEnvelope} className='team-topicon'/></a>
-               <a href="#"><FontAwesomeIcon icon={faEnvelope} className='team-topicon'/></a>
+               <a href="#"><FontAwesomeIcon icon={faFacebookF} className='team-topicon'/></a>
+               <a href="#"><FontAwesomeIcon icon={faLinkedin} className='team-topicon'/></a>
+               <a href="#"><FontAwesomeIcon icon={faTwitter} className='team-topicon'/></a>
+               <a href="#"><FontAwesomeIcon icon={faYoutube} className='team-topicon'/></a>
              </div>
                    
                   </div>

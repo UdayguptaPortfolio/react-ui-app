@@ -32,7 +32,7 @@ const FeatureDescCard = ({ text, title, desc,icon }) => {
           </div>
         </div>
       </div> */}
-      <div className='container'>
+      <div className='t-container'>
         <div className='wrapper'>
           <div className='cardcontainer'>
           <div className='card'>

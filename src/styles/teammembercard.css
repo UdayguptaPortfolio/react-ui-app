@@ -17,22 +17,22 @@
     align-items: center;
     text-align: center;  
   }
-  .card .content .img{
+  .card .content .team-img{
       height: 285px;
       width: 250px;
     padding: 3px;
     background: none;
     margin-bottom: 14px;
   }
-  .card .content .img img{
+  .card .content .team-img img{
     height: 100%;
     width: 100%;
    
   }
   .card .content .name>button{
-      margin-top: -40px;
-      position: absolute;
-      margin-left: -80px;
+      margin-top: -50px;
+      position: relative;
+      margin-left: 10px;
     font-size: 20px;
     font-weight: 500;
     border: none;
@@ -105,7 +105,7 @@
     border-color: rgb(20, 20, 20);
   }
   .team-bgcontainer {
-    position: absolute;
+    position: fixed;
     display: flex;
     width: 80%;
     height: 280px;
@@ -116,7 +116,7 @@
     visibility: hidden;
   }
   
-  .img:hover .team-bgcontainer {
+  .team-img:hover .team-bgcontainer {
     visibility:visible;
     background:rgb(15, 170, 241) ;
     opacity: 0.8;

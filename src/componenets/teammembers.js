@@ -61,7 +61,80 @@ const leftClick=()=>{
           </h4>
         </div>
         <div className="team-center">
-          <div className=".body">
+        <div className=".body">
+        <div class="teamcontain">
+          <input type="radio" name="dot" id="one" />
+          <input type="radio" name="dot" id="two" />
+          <div class="main-card">
+            <div class="cards">
+            <TeamMemberCard
+                    name="ALEXIS SIMPSON"
+                    post="WEB DEVELOPER"
+                    email="abc@gmail.com"
+                    phone="123456789"
+                    img="./images/member1.jpg"
+                  />
+                  <TeamMemberCard
+                    name="ALEXIS SIMPSON"
+                    post="WEB DEVELOPER"
+                    email="abc@gmail.com"
+                    phone="123456789"
+                    img="./images/member2.jpg"
+                  />
+                  <TeamMemberCard
+                    name="ALEXIS SIMPSON"
+                    post="WEB DEVELOPER"
+                    email="abc@gmail.com"
+                    phone="123456789"
+                    img="./images/member3.jpg"
+                  />
+                  <TeamMemberCard
+                    name="ALEXIS SIMPSON"
+                    post="WEB DEVELOPER"
+                    email="abc@gmail.com"
+                    phone="123456789"
+                    img="./images/member4.jpg"
+                  />
+                </div>
+
+                <div class="cards">
+                  <TeamMemberCard
+                    name="ALEXIS SIMPSON"
+                    post="WEB DEVELOPER"
+                    email="abc@gmail.com"
+                    phone="123456789"
+                    img="./images/member2.jpg"
+                  />
+                  <TeamMemberCard
+                    name="ALEXIS SIMPSON"
+                    post="WEB DEVELOPER"
+                    email="abc@gmail.com"
+                    phone="123456789"
+                    img="./images/member3.jpg"
+                  />
+                  <TeamMemberCard
+                    name="ALEXIS SIMPSON"
+                    post="WEB DEVELOPER"
+                    email="abc@gmail.com"
+                    phone="123456789"
+                    img="./images/member1.jpg"
+                  />
+                  <TeamMemberCard
+                    name="ALEXIS SIMPSON"
+                    post="WEB DEVELOPER"
+                    email="abc@gmail.com"
+                    phone="123456789"
+                    img="./images/member4.jpg"
+                  />
+            </div>
+          </div>
+          <div class="button">
+            <label for="one" class=" active one"></label>
+            <label for="two" class="two"></label>
+          </div>
+        </div>
+      </div>
+          {/* <div className=".body">
             <div class="container">
               <input type="radio" name="dot" id="one" />
               <input type="radio" name="dot" id="two" />
@@ -133,7 +206,7 @@ const leftClick=()=>{
                 <label for="two" class="two"></label>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="team-members-bottom">
