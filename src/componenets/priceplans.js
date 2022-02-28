@@ -1,9 +1,10 @@
 import React from 'react'
 import {faDesktop} from '@fortawesome/free-solid-svg-icons';
 import {faPuzzlePiece} from '@fortawesome/free-solid-svg-icons';
-import {faHandsHelping} from '@fortawesome/free-solid-svg-icons';
+import {faShoppingBasket} from '@fortawesome/free-solid-svg-icons';
 import PriceCard from './pricecard';
 import '../styles/priceplans.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const PricePlans = () => {
   return (
@@ -59,6 +60,13 @@ const PricePlans = () => {
         desc5='Enhanced Security'
         />
 
+      </div>
+      <div className='price-plan-footer'>
+        <img src='header_image.jpg' width="100%" height="100px"/>
+        <div className='footer-content-price-plans'>
+        <h3>STARTUPPR! We Do ❤️ It And Hope You too</h3>
+        <button>PURCHASE IT NOW {" "} {" "}<FontAwesomeIcon icon={faShoppingBasket}/></button>
+        </div>
       </div>
       </>
   )

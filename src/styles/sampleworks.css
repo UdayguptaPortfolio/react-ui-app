@@ -96,3 +96,26 @@ width:100%;
   padding-left: 400px;
   padding-right: 400px;
 }
+
+@media(max-width:1050px){
+  .longbutton{
+    width:80%;
+      display: flex;
+      justify-content: center;
+      margin-top:50px;
+    }
+    .longbutton >button{
+      background-color: rgb(15, 170, 241);
+      border: none;
+      height: 20px;
+      font-size: auto;
+      color:white;
+      font-weight: 600;
+      cursor: pointer;
+      border-radius: 10px;
+      padding-top: 10px;
+      padding-bottom: 60px;
+      padding-left: 400px;
+      padding-right: 400px;
+    }
+}

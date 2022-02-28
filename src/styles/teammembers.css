@@ -52,14 +52,17 @@
   background: #f2f2f2;
   position: relative;
 }
+.team-center{
+  overflow: hidden;
+}
 
-.container{
+.teamcontain{
   max-width: 950px;
   width: 100%;
   overflow: hidden;
   padding: 80px 0;
 }
-.container .main-card{
+.teamcontain .main-card{
   display: flex;
   justify-content: space-evenly;
   width: 200%;
@@ -68,7 +71,7 @@
 #two:checked ~ .main-card{
   margin-left: -100%;
 }
-.container .main-card .cards{
+.teamcontain .main-card .cards{
   width: calc(100% / 2 - 10px);
     display: flex;
     flex-wrap: wrap;
@@ -76,7 +79,7 @@
     justify-content: space-between;
 }
 
-.container .button{
+.teamcontain .button{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -143,7 +146,7 @@ input[type="radio"]{
   }
 }
 
-.container{
+.teamcontain{
     display: contents;
 }
 
