@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '../styles/progresscard.css'
+import styled from 'styled-components';
 const {CircularProgress} =require('@material-ui/core');
 
 const ProgressCard = ({score,title}) => {
@@ -7,21 +7,45 @@ const ProgressCard = ({score,title}) => {
     useEffect(()=>{
         setLevel(score)
     })
+
+  const OuterConatiner=styled.div`
+  padding: 30px;
+  `
+
+  const InnerContainer=styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  `
+  const Number=styled.div`
+  font-weight: 6000px;
+  color: white;
+  font-size: 30PX;
+  align-items: center;
+  margin-right: -100px;
+  `
+
+  const ProgressBarTitle=styled.h6`
+  margin-top: 20px;
+  margin-left: -20px;
+  font-size: 15px;
+  color: rgb(102, 99, 99);
+  `
      
   return (
-    <div className='outer'>
-    <div className='inner'>
-        <div className='number'>
+    <OuterConatiner>
+    <InnerContainer>
+        <Number>
                 {score}%
-            </div>
-    <CircularProgress size="150px" variant='determinate'  color='primary' value={level} className="progress-bar"/>
+            </Number>
+    <CircularProgress size="150px" variant='determinate'  color='primary' value={level}/>
     
-    </div>
-    <div className='progress-bar-title'>
-        <h6>{title}</h6>
-    </div>
-    </div>
+    </InnerContainer>
+    <ProgressBarTitle>
+        {title}
+    </ProgressBarTitle>
+    </OuterConatiner>
   )
 }
 
-export default ProgressCard
+export default ProgressCard;

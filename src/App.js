@@ -1,4 +1,3 @@
-import './App.css';
 import AddressMap from './componenets/addressmap';
 import AmazingFeatures from './componenets/amazingfeatures';
 import CompanyFacts from './componenets/companyfacts';
@@ -11,21 +10,24 @@ import SampleWorks from './componenets/sampleworks';
 import SocialMedia from './componenets/socialmedia';
 import TeamMembers from './componenets/teammembers';
 import UpperHeader from './componenets/upperheader'
+import './App.css';
+
 function App() {
   return (
     <div className="App">
       <UpperHeader/>
-     <Header/>
+      <Header/>
      <Offers/>
      <AmazingFeatures/>
      <PowerFullSkills/>
+      {/* 
      <SampleWorks/>
      <CompanyFacts/>
      <TeamMembers/>
      <PricePlans/>
      <SocialMedia/>
      <AddressMap/>
-     <Footer/>
+     <Footer/> */}
     </div>
   );
 }

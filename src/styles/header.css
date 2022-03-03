@@ -1,30 +1,4 @@
-/* .navbar-logo img {
-  height: 40px;
-  padding-left: 30px;
-}
-.topnav {
-  overflow: hidden;
-  margin-left: 600px;
-}
 
-.topnav a {
-  float: left;
-  color: #332e2e;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: rgb(15, 170, 241);
-  color: white;
-}
-
-.topnav a.active {
-  background-color: rgb(15, 170, 241);
-  color: white;
-} */
 .header {
   overflow: hidden;
   padding: 20px 10px;
