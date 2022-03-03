@@ -2,26 +2,71 @@ import React from "react";
 import {faDesktop} from '@fortawesome/free-solid-svg-icons';
 import {faPuzzlePiece} from '@fortawesome/free-solid-svg-icons';
 import {faHandsHelping} from '@fortawesome/free-solid-svg-icons';
-import "../styles/offers.css";
 import OfferCard from "./offercard";
+import styled from "styled-components";
 
 const Offers = () => {
+
+const Container=styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 70px;
+margin-bottom: 20px;
+
+@media(max-width:1050px){
+  flex-wrap: wrap;
+}
+`
+const Heading=styled.h2`
+color: rgb(102, 99, 99);
+align-items: center;
+justify-content: center;
+font-weight: 800;
+
+@media(max-width:1050px){
+  height: auto;
+  width: auto;
+}
+`
+const StrongHeading=styled.strong`
+color: rgb(15, 170, 241);
+align-items: center;
+justify-content: center;
+font-weight: 800;
+`
+const Description=styled.h4`
+color: rgb(102, 99, 99);
+align-items: center;
+justify-content: center;
+`
+const OfferCardMaterial=styled.div`
+display: flex;
+
+@media(max-width:1050px){
+  flex-wrap: wrap;
+}
+`
+
   return (
     <>
-      <div className="offers_container">
-        <h2>
+      <Container>
+        <Heading>
           {" "}
           WHAT WE{" "}
           <b>
-            <strong>OFFER</strong>
+            <StrongHeading>OFFER</StrongHeading>
           </b>
-        </h2>
-        <h4>
+        </Heading>
+        <Description>
           We offer our customers the best services and solutions, this is our
           main services list
-        </h4>
-      </div>
-      <div className="offer-card">
+        </Description>
+      </Container>
+
+
+      <OfferCardMaterial>
         <OfferCard
         icon={faDesktop}
           text="RESPONSIVE & MULTIPURPOSE"
@@ -40,7 +85,7 @@ const Offers = () => {
           desc="Proin in imagine a ipsum viverra scelerisq enec turp.Nunc
              "
         />
-      </div>
+      </OfferCardMaterial>
     </>
   );
 };

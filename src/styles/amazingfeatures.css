@@ -1,4 +1,4 @@
-.features-heading{
+/* .features-heading{
     margin-top: -440px;
     display: flex;
     flex-direction: column;
@@ -23,15 +23,15 @@
     position:relative;
     bottom:51px;
     border-radius: 3px;
-}
-.keyicon {
+} */
+/* .keyicon {
     color:white;
     margin-top: 10px;
     margin-left: 9px;
     font-size: 15px;
-}
+} */
   
-  .amazing-features-container>.features-heading > h2 > b > strong {
+  /* .amazing-features-container>.features-heading > h2 > b > strong {
     color: rgb(15, 170, 241);
     align-items: center;
     justify-content: center;
@@ -45,8 +45,8 @@
     color: rgb(102, 99, 99);
     align-items: center;
     justify-content: center;
-  }
-  .arrow {
+  } */
+  /* .arrow {
     color: aqua;
     border: solid black;
     border-width: 0 3px 3px 0;
@@ -65,8 +65,10 @@
     left: 535px;
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
-  }
+  } */
 
+
+/*   
 .left-features{
     display: flex;
     flex-direction: column;
@@ -80,8 +82,8 @@
   position: absolute;
   margin-top: 180px;
   left: 1070px;
-}
-.right-features>.image1{
+} */
+/* .right-features>.image1{
   position: relative;
   margin-left: -100px;
   border-radius: 15px;
@@ -96,7 +98,7 @@
   display: flex;
   align-items: center;
   
-}
+} */
 /* .second-features{
     background-color:white;
     height: 400px;
@@ -108,7 +110,7 @@
     width: 100%;
   } */
 
-  @media(max-width:1050px){
+  /* @media(max-width:1050px){
     .amazing-features-container{
      flex-wrap: wrap;
     }
@@ -127,4 +129,4 @@
     flex-wrap: wrap;
   }
     
-  }
+  } */
