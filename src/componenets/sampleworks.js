@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import "../styles/sampleworks.css";
 import { images } from "../imageData/imagedata";
 import { allImages } from "../imageData/imagedata";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import styled from "styled-components";
 
 const SampleWorks = () => {
   const [click, setClick] = useState(true);
@@ -13,72 +13,178 @@ const SampleWorks = () => {
     console.log(click);
   };
 
+  const Container = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  `;
+  const Heading = styled.div`
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  `;
+  const SampleHeading = styled.h2`
+    color: rgb(102, 99, 99);
+    font-weight: 800;
+  `;
+  const StrongHeading = styled.strong`
+    color: rgb(15, 170, 241);
+    font-weight: 800;
+  `;
+
+  const SampleDesc = styled.h4`
+    color: rgb(102, 99, 99);
+  `;
+
+  const PhotoSection = styled.div`
+    margin-top: 40px;
+    flex: 3;
+  `;
+  const PhotoContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin: 2px;
+    margin-left: auto;
+    margin-right: auto;
+  `;
+  const BgContainer = styled.div`
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    visibility: hidden;
+  `;
+  const Photo = styled.div`
+    width: 215px;
+    height: 215px;
+    position: relative;
+
+    &:hover {
+      ${BgContainer} {
+        visibility: visible;
+        background: rgb(15, 170, 241);
+        opacity: 0.8;
+      }
+    }
+  `;
+
+  const OnePhoto = styled.img`
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  `;
+  const Icon = styled.div`
+    margin-top: 50px;
+  `;
+
+  const ImageHeading = styled.h6`
+    margin-bottom: 0;
+  `;
+  const ImageDesc = styled.p`
+    margin-top: 0;
+    margin-bottom: 20px;
+  `;
+  const LongButtonSection = styled.div`
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    @media (max-width: 1050px) {
+      width: 80%;
+    }
+  `;
+
+  const LongButton = styled.button`
+    background-color: rgb(15, 170, 241);
+    border: none;
+    height: 20px;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 400px;
+    padding-right: 400px;
+
+    @media (max-width: 1050px) {
+      font-size: auto;
+      padding-top: 10px;
+      padding-bottom: 60px;
+    }
+  `;
+
   return (
-    <div className='container'>
-      <div className='heading'>
-        <h2>SAMPLE  <b>
-               <strong>WORKS</strong>
-            </b></h2>
-        <h4>
+    <Container>
+      <Heading>
+        <SampleHeading>
+          SAMPLE{" "}
+          <b>
+            <StrongHeading>WORKS</StrongHeading>
+          </b>
+        </SampleHeading>
+        <SampleDesc>
           Let's take a look at some of the best of our works here , we love them
           and hope you too
-        </h4>
-      </div>
-      <div className='photosection'>
-        <div className='photocontainer'>
+        </SampleDesc>
+      </Heading>
+      <PhotoSection>
+        <PhotoContainer>
           {click
             ? images.map((item) => (
-                <div className='photo'>
-                  <div className='bgcontainer'>
-                    <FontAwesomeIcon
-                      icon={faSearch}
-                      className='topicon'
-                    ></FontAwesomeIcon>
-                    <h6>Corporate Brochure</h6>
-                    <p>Illustration/Print</p>
+                <Photo>
+                  <BgContainer>
+                    <Icon>
+                      <FontAwesomeIcon icon={faSearch}></FontAwesomeIcon>
+                    </Icon>
+                    <ImageHeading>Corporate Brochure</ImageHeading>
+                    <ImageDesc>Illustration/Print</ImageDesc>
                     <FontAwesomeIcon
                       icon={faHeart}
-                      className='bottomicon'
+                      className="bottomicon"
                     ></FontAwesomeIcon>
-                  </div>
-                  <img
-                    className='onephoto'
-                    src={`/images/${item.img}`}
-                    alt="not available"
-                  ></img>
-                </div>
+                  </BgContainer>
+                  <OnePhoto src={`/images/${item.img}`} alt="not available" />
+                </Photo>
               ))
             : allImages.map((item) => (
-                <div className='photo'>
-                  <div className='bgcontainer'>
-                    <FontAwesomeIcon
-                      icon={faSearch}
-                      className='topicon'
-                    ></FontAwesomeIcon>
-                    <h6>Corporate Brochure</h6>
-                    <p>Illustration/Print</p>
+                <Photo>
+                  <BgContainer>
+                    <Icon>
+                      <FontAwesomeIcon icon={faSearch}></FontAwesomeIcon>
+                    </Icon>
+                    <ImageHeading>Corporate Brochure</ImageHeading>
+                    <ImageDesc>Illustration/Print</ImageDesc>
                     <FontAwesomeIcon
                       icon={faHeart}
-                      className='bottomicon'
+                      className="bottomicon"
                     ></FontAwesomeIcon>
-                  </div>
-                  <img
-                    className='onephoto'
-                    src={`/images/${item.img}`}
-                    alt="not available"
-                  ></img>
-                </div>
+                  </BgContainer>
+                  <OnePhoto src={`/images/${item.img}`} alt="not available" />
+                </Photo>
               ))}
-        </div>
-      </div>
-      <div className='longbutton'>
+        </PhotoContainer>
+      </PhotoSection>
+      <LongButtonSection>
         {click ? (
-          <button onClick={clicked}>View all works</button>
+          <LongButton onClick={clicked}>View all works</LongButton>
         ) : (
-          <button onClick={clicked}>All works</button>
+          <LongButton onClick={clicked}>All works</LongButton>
         )}
-      </div>
-    </div>
+      </LongButtonSection>
+    </Container>
   );
 };
 export default SampleWorks;

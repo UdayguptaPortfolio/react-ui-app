@@ -175,10 +175,4 @@
     margin-left: 100px;
     color:rgb(15, 170, 241);
   }
-  .batch-numbers>h1:hover{
-    color:rgb(15, 170, 241);
-  }
-  .batch-title>h6:hover{
-    color: #ddd;
-  }
 }
